@@ -1,3 +1,11 @@
 apiVersion: v1
-entries: {}
+entries: {
+  cubeuniverse:
+    - created: 2023-4-10T16:23:20.499814565-06:00
+      description: A cloud-native storage platform
+      name: cubeuniverse
+      urls:
+        - https://tksky1.github.io/CubeUniverseHelmChart/CubeUniverse-1.0.0.tgz
+      version: 1.0.0
+}
 generated: "2023-04-11T00:00:44.575362236+08:00"

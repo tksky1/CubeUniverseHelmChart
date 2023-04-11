@@ -1,11 +1,14 @@
 apiVersion: v1
-entries: {
-  cubeuniverse:
-    - created: 2023-4-10T16:23:20.499814565-06:00
-      description: A cloud-native storage platform
-      name: cubeuniverse
-      urls:
-        - https://tksky1.github.io/CubeUniverseHelmChart/CubeUniverse-1.0.0.tgz
-      version: 1.0.0
-}
-generated: "2023-04-11T00:00:44.575362236+08:00"
+entries:
+  CubeUniverse:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-04-11T18:59:02.155519985+08:00"
+    description: CubeUniverse Cloud-Native Storage Platform
+    digest: caadc40f9bd9cf5862cd2a39641333aad8d07e2bf0c437980e7a1d7c401c220a
+    name: CubeUniverse
+    type: application
+    urls:
+    - CubeUniverse-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-04-11T18:59:02.154870503+08:00"

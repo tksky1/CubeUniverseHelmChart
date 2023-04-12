@@ -1,13 +1,5 @@
 # deployment: CubeUniverse 请使用本文件部署CubeUniverse
 # 会自动检测集群健康状况 如果集群符合条件则自动启动UniverseBuilder构建存储系统
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: cubeuniverse
-  labels:
-    app: cubeuniverse
----
 apiVersion: v1
 kind: ServiceAccount
 metadata:

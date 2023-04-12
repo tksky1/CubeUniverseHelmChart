@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   CubeUniverse:
   - apiVersion: v2
-    appVersion: 1.0.0
+    appVersion: 0.1.0
     created: "2023-04-11T18:59:02.155519985+08:00"
     description: CubeUniverse Cloud-Native Storage Platform
     digest: caadc40f9bd9cf5862cd2a39641333aad8d07e2bf0c437980e7a1d7c401c220a
@@ -10,5 +10,5 @@ entries:
     type: application
     urls:
     - CubeUniverse-1.0.0.tgz
-    version: 1.0.0
+    version: 0.1.0
 generated: "2023-04-11T18:59:02.154870503+08:00"

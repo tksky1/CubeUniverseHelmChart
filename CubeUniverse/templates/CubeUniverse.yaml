@@ -1,4 +1,4 @@
-# deployment: CubeUniverse
+# deployment: CubeUniverse 请使用本文件部署CubeUniverse
 # 会自动检测集群健康状况 如果集群符合条件则自动启动UniverseBuilder构建存储系统
 ---
 apiVersion: v1
@@ -37,9 +37,9 @@ spec:
     spec:
       containers:
         - name: cubeuniverse-prepare
-          #image: tksky1/cubeuniverse:dev0.1  # 发布版本
-          image: main-dev
-          imagePullPolicy: Never #调试完成后这里应该改成IfNotPresent
-      serviceAccount: universe-account
+          image: tksky1/cubeuniverse:0.1alpha  # 发布版本
+          #image: main-dev
+          imagePullPolicy: Always #调试完成后这里应该改成IfNotPresent
+      serviceAccountName: universe-account
       restartPolicy: OnFailure
   backoffLimit: 4

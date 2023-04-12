@@ -9,6 +9,6 @@ entries:
     name: CubeUniverse
     type: application
     urls:
-    - CubeUniverse-1.0.0.tgz
+    - CubeUniverse-0.1.0.tgz
     version: 0.1.0
 generated: "2023-04-11T18:59:02.154870503+08:00"
